@@ -1,7 +1,12 @@
 body {
   /* background-color: black; */
-  background: rgb(18,235,26);
-background: linear-gradient(90deg, rgba(18,235,26,1) 0%, rgba(217,41,170,1) 35%, rgba(0,212,255,1) 100%);
+  background: rgb(18, 235, 26);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 235, 26, 1) 0%,
+    rgba(217, 41, 170, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   font-family: El Rio Lobo;
   color: white;
 }
