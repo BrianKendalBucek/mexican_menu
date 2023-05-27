@@ -1,11 +1,12 @@
+
 body {
   /* background-color: black; */
   background: rgb(0, 0, 0);
   background: linear-gradient(
     146deg,
     rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 49%,
-    rgba(103, 0, 106, 1) 100%
+    black 60%,
+    #7C40A3 100%
   );
   font-family: El Rio Lobo;
   color: white;
@@ -16,7 +17,10 @@ h1 {
   text-align: center;
   font-size: 7rem;
   margin-bottom: 0;
-  background: -webkit-linear-gradient(-225deg, rgba(103, 0, 106, 1), rgb(203, 123, 205));
+  margin-top: 0;
+  padding-top: 1.3rem;
+  padding-right: 5rem;
+  background: -webkit-linear-gradient(-225deg, #7C40A3, #FF8800);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -51,6 +55,7 @@ ul {
 #header {
   display: flex;
   justify-content: space-around;
+  padding-top: 2rem;
 }
 
 .menus {
@@ -71,7 +76,7 @@ ul {
   font-size: 1.2rem;
   width: 22rem;
   padding-left: 2rem;
-    background: -webkit-linear-gradient(-225deg, rgba(103, 0, 106, 1), rgb(203, 123, 205));
+  background: -webkit-linear-gradient(-225deg, #7C40A3, #FF8800);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -80,7 +85,7 @@ ul {
   display: flex;
   justify-content: space-around;
   font-size: 1.7rem;
-  color: rgb(59, 246, 59);
+  color: #00FF00;
 }
 
 .secondListItem {
@@ -89,9 +94,22 @@ ul {
 
 .pageName {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding-top: 1rem;
 }
 
 .footerItem {
-  border-bottom: 9px dotted rgb(240, 103, 126);
+  border-bottom: 9px dotted #C62828;
+}
+
+.circle-image {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.circle-image img {
+  height: 10rem;
+  display: block;
+  max-width: 100%;
 }
