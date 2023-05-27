@@ -1,9 +1,7 @@
 body {
-  /* background-color: black; */
-  background: rgb(18,235,26);
-background: linear-gradient(90deg, rgba(18,235,26,1) 0%, rgba(217,41,170,1) 35%, rgba(0,212,255,1) 100%);
-  font-family: 'Chango', cursive;
-  color: black;
+  background-color: black;
+  font-family: El Rio Lobo;
+  color: white;
 }
 
 h1 {
@@ -13,6 +11,8 @@ h1 {
 
 ul {
   list-style-type: none;
+  margin: 0.7rem;
+  /* padding: 0; */
 }
 
 #header {
@@ -22,22 +22,29 @@ ul {
 
 .menus {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.menu1, .menu2 {
-  color: black;
-  font-size: 1.7em;
+.menu2 {
+  padding-right: 2rem;
+}
+
+.menu1,
+.menu2 {
+  font-size: 3em;
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 1.2rem;
   width: 22rem;
+  padding-left: 2rem;
 }
 
 .footerList {
   display: flex;
   justify-content: space-around;
+  font-size: 1.7rem;
+  color: rgb(59, 246, 59);
 }
 
 .secondListItem {
